@@ -10,5 +10,15 @@ Algoritmo NotasEjemplo
 	Escribir "Ingrese la nota del examen final"
 	leer final
 	
+	resultado = nota1 + nota2 + final				
+	Escribir "Su nota final es de: ", resultado
+	
+	si resultado >= 61 Entonces
+		Escribir "Aprobado"
+	sino 
+		Escribir "Reprobado"
+	FinSi
+	
+	
 	
 FinAlgoritmo
